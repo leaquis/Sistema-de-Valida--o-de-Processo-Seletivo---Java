@@ -3,7 +3,7 @@ import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ProcessoSeletivo {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception { 
         String [] candidatos = {"Felipe", "Mirela", "Julia", "Marcia", "Paulo"};
         for(String candidato: candidatos) {
             entrandoEmContato(candidato);
